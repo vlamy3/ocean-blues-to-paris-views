@@ -48,7 +48,7 @@ font-weight:500;
 
 .hero{
 height:85vh;
-background:url("images/hero-image.avif") center/cover;
+background:url("/images/hero-image.avif") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
