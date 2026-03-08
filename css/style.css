@@ -157,4 +157,15 @@ column-count:2;
 }
 
 }
+
+#map{
+height:80vh;
+width:100%;
+margin-top:20px;
+}
+
+.map-header{
+text-align:center;
+padding:40px;
+}
 }
