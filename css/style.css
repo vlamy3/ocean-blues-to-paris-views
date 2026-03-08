@@ -4,10 +4,10 @@ padding:0;
 box-sizing:border-box;
 }
 :root{
-    --Ocean-Blue :#0c3c60
-    --Seafoam :#2fa89c
-    --Sand :#f4f6f8
-    --White :#ffffff
+    --Ocean-Blue :#0c3c60;
+    --Seafoam :#2fa89c;
+    --Sand :#f4f6f8;
+    --White :#ffffff;
 }
 body{
 font-family:'Poppins',sans-serif;
@@ -48,7 +48,7 @@ font-weight:500;
 
 .hero{
 height:85vh;
-background:url("/images/hero-image.avif") center/cover;
+background:url("images/hero-image.avif") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -155,15 +155,23 @@ column-count:2;
 }
 
 }
-
-#map{
-height:80vh;
-width:100%;
-margin-top:20px;
 }
 
 .map-header{
 text-align:center;
 padding:40px;
 }
+
+.map-section{
+padding:80px 10%;
+text-align:center;
+background:#f8f8f8;
+}
+
+#map{
+height:500px;
+width:100%;
+border-radius:20px;
+margin-top:30px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
