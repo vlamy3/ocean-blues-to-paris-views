@@ -38,8 +38,6 @@ list-style:none;
 
 .nav-links li{
 margin-left:25px;
-margin:0;
-padding:0;
 }
 
 .nav-links a{
@@ -95,9 +93,9 @@ display:none;
 }
 
 ul.route-list{ 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
 .gallery-header{
 text-align:center;
