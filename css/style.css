@@ -97,5 +97,62 @@ ul.route-list{
     margin: 0;
     padding: 0;
 }
+.gallery-header{
+text-align:center;
+padding:60px 20px;
+}
 
+.gallery-header h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.masonry-gallery{
+
+column-count:4;
+column-gap:16px;
+padding:20px;
+
+}
+
+.masonry-gallery img{
+
+width:100%;
+margin-bottom:16px;
+border-radius:10px;
+break-inside:avoid;
+box-shadow:0 6px 20px rgba(0,0,0,.15);
+transition:transform .3s ease;
+
+}
+
+.masonry-gallery img:hover{
+
+transform:scale(1.03);
+
+}
+
+/* Tablet */
+
+@media(max-width:900px){
+
+.masonry-gallery{
+
+column-count:3;
+
+}
+
+}
+
+/* Phone */
+
+@media(max-width:600px){
+
+.masonry-gallery{
+
+column-count:2;
+
+}
+
+}
 }
